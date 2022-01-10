@@ -21,3 +21,35 @@
 
   
 */
+const N = 2,
+  M = 3
+
+let R = [],
+  C = []
+
+let arrEsterno = []
+for (let i = 0; i < N; i++) {
+  let arrInterno = []
+  // mentre creo la matrice posso già calcolare la somma delle righe
+  let sommaRiga = 0
+  for (let k = 0; k < M; k++) {
+    const random = Math.floor(Math.random() * (100 - 1) + 1)
+    sommaRiga += random
+    arrInterno.push(random)
+  }
+  arrEsterno.push(arrInterno)
+  R.push(sommaRiga)
+}
+
+// somma colonne
+// tengo fissa la colonna ora
+for (let k = 0; k < M; k++) {
+  let sommaColonne = 0
+  // andrò a vedere per ogni riga il valore della colonna
+  for (let i = 0; i < N; i++) {
+    sommaColonne += arrEsterno[i][k]
+  }
+  C.push(sommaColonne)
+}
+
+console.log(arrEsterno, R, C)

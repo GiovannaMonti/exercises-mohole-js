@@ -15,3 +15,31 @@
 
   
 */
+
+const array = [3, 7, -2, 5, 8, 1, 2, 5, 6, -4]
+
+// decrescente
+for (let a = 0; a < array.length - 1; a++) {
+  let temp
+  for (let b = a + 1; b < array.length; b++) {
+    if (array[a] < array[b]) {
+      temp = array[a]
+      array[a] = array[b]
+      array[b] = temp
+    }
+  }
+}
+console.log(array)
+
+// crescente: cambia solo la condizione dell'if --> if (array[b] < array[a])
+for (let a = 0; a < array.length - 1; a++) {
+  let temp
+  for (let b = a + 1; b < array.length; b++) {
+    if (array[b] < array[a]) {
+      temp = array[a]
+      array[a] = array[b]
+      array[b] = temp
+    }
+  }
+}
+console.log(array)
