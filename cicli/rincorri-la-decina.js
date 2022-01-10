@@ -16,4 +16,13 @@
 
   Consiglio:
   Per andare a capo usa '\n'.
+  
 */
+
+let result = ""
+
+for (let i = 1; i <= 100; i++) {
+  i % 10 !== 0 ? (result += i + " ") : (result += i + "\n")
+}
+
+console.log(result)

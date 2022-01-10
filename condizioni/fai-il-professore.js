@@ -18,3 +18,28 @@
 
   
 */
+
+const voto = 23
+
+switch (true) {
+  case voto < 18:
+    console.log("Insufficiente")
+    break
+  case voto >= 18 && voto <= 21:
+    console.log("Sufficiente")
+    break
+  case voto > 21 && voto <= 24:
+    console.log("Buono")
+    break
+  case voto > 24 && voto <= 27:
+    console.log("Distinto")
+    break
+  case voto > 27 && voto <= 29:
+    console.log("Ottimo")
+    break
+  case voto === 30:
+    console.log("Eccellente")
+    break
+  default:
+    console.log("Voto inserito non valido")
+}

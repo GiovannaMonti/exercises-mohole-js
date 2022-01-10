@@ -19,5 +19,19 @@
     Input: scelta = 7
     Output: Dolce non disponibile
 
-  
 */
+
+const menu = [
+  "1. Tiramisù",
+  "2. Torta della nonna",
+  "3. Cheesecake alla nutella",
+  "4. Macedonia",
+]
+
+const input = 2
+
+if (menu[input - 1]) {
+  console.log("Hai scelto il dolce " + menu[input - 1].substring(3))
+} else {
+  console.log("Dolce non disponibile")
+}

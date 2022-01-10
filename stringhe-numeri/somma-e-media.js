@@ -6,5 +6,16 @@
     Input: a = 1, b = 2, c = 3, d = 4, e = 5
     Output: somma = 15, media = 3
   
-  
 */
+
+const a = 1,
+  b = 2,
+  c = 3,
+  d = 4,
+  e = 5
+
+const sum = a + b + c + d + e
+console.log(sum)
+
+const avg = sum / 5
+console.log(avg)

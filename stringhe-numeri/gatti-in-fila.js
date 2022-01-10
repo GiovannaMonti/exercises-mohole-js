@@ -15,3 +15,13 @@
   Per l'arrotondamento ti consiglio di non usare Math.round (arrotonda all'intero superiore solo da .5 in su),
   utilizza Math.ceil (arrotonda sempre all'intero superiore).
 */
+
+const totalCount = 44
+const rowCount = 6
+
+const rows = Math.ceil(totalCount / rowCount)
+console.log(rows)
+
+// numero di gatti necessari per formare una fila - numero di gatti disponibili per riempire l'ultima fila
+const missingCats = rowCount - (totalCount % rowCount)
+console.log(missingCats)

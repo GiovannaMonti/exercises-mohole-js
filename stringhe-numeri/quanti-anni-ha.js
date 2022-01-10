@@ -8,8 +8,14 @@
   Esempio:
     Input: anno corrente = 2018, anno di nascita = 1991
     Ouput: età = 27, anni mancanti = 73
-
+  
 */
 
 const currentYear = 2018
 const birthYear = 1991
+
+const age = currentYear - birthYear
+console.log(age)
+
+const missing = 100 - age
+console.log(missing)
