@@ -19,3 +19,37 @@
 
   
 */
+
+// creo e popolo array
+let arr1 = Array(10),
+  arr2 = Array(10)
+
+let arrSomma = []
+const operazione = "sottrazione"
+
+for (let i = 0; i < arr1.length; i++) {
+  arr1[i] = Math.floor(Math.random() * (10 - 1) + 1)
+  arr2[i] = Math.floor(Math.random() * (10 - 1) + 1)
+
+  switch (operazione) {
+    case "addizione":
+      arrSomma[i] = arr1[i] + arr2[i]
+      break
+    case "sottrazione":
+      arrSomma[i] = arr1[i] - arr2[i]
+      break
+    case "divisione":
+      arrSomma[i] = arr1[i] / arr2[i]
+      break
+    case "moltiplicazione":
+      arrSomma[i] = arr1[i] * arr2[i]
+      break
+    default:
+  }
+}
+
+console.log(
+  "array1: " + arr1 + "\n",
+  "array2: " + arr2 + "\n",
+  "somma degli array: " + arrSomma
+)

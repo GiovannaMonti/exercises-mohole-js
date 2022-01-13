@@ -11,3 +11,34 @@
   documentazione: https://developer.mozilla.org/it/docs/Web/API/Window/prompt
 
 */
+
+let input = Number(window.prompt("Inserisci un numero da 0 a 50"))
+
+// creo e popolo array
+let arr = Array(100)
+for (let i = 0; i < arr.length; i++) {
+  arr[i] = Math.floor(Math.random() * (50 - 1) + 1)
+}
+
+console.log(arr)
+
+// check valore inserito e sostituzione
+for (i = 0; i < arr.length; i++) {
+  if (arr[i] === input) {
+    arr[i] = 0
+  }
+}
+
+console.log(arr)
+
+// se volessi farlo all'infinito finchè non ho tutti 0
+// non funziona perchè prompt blocca l'esecuzione del programma
+
+/* while (arr.some((item) => item !== 0)) {
+  let input = Number(window.prompt("Inserisci un numero da 0 a 50"))
+  for (i = 0; i < arr.length; i++) {
+    if (arr[i] === input) {
+      arr[i] = 0
+    }
+  }
+} */

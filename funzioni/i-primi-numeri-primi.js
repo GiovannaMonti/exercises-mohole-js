@@ -20,3 +20,31 @@
 
   
 */
+
+const number = 67
+
+const isPrime = (num) => {
+  if (num === 0 || num === 1) {
+    return false
+  }
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) {
+      return false
+    }
+  }
+  return true
+}
+
+console.log(isPrime(number))
+
+const printPrimeNumbers = (num) => {
+  let primeNumbers = ""
+  for (let i = 2; i <= num; i++) {
+    if (isPrime(i)) {
+      primeNumbers += i + " "
+    }
+  }
+  console.log(primeNumbers)
+}
+
+printPrimeNumbers(number)

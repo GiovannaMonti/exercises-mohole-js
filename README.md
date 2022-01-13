@@ -1,33 +1,33 @@
 ## Tipi di dato primari (stringhe e numeri)
 * **Facili**
-  * Somma e media
-  * Quanti anni ha?
-  * Conta il tempo
-  * Gatti in fila
+  * Somma e media FATTO
+  * Quanti anni ha? FATTO
+  * Conta il tempo FATTO
+  * Gatti in fila FATTO
 
 ## Condizioni (if e switch)
 * **Facili**
-  * Pari o Dispari?
-  * Maggiore e minore
-  * Menu dei dolci
-  * Conta le cifre
+  * Pari o Dispari? FATTO
+  * Maggiore e minore FATTO
+  * Menu dei dolci FATTO
+  * Conta le cifre FATTO
 * **Medi**
-  * Caldo o freddo?
-  * Chi l'azzecca?
-  * Che giorno è oggi?
+  * Caldo o freddo? 
+  * Chi l'azzecca? FATTO
+  * Che giorno è oggi? FATTO
 * **Difficili**
-  * Fai il professore
+  * Fai il professore FATTO
   * La calcolatrice
 
 ## Cicli (for, while e do-while)
 * **Facili**
-  * Rincorri la decina
+  * Rincorri la decina FATTO
   * Ti ricordi le tabelline?
 * **Medi**
   * Vinci tu!
   * Il calendario mediocre
 * **Difficili**
-  * Rombo che stampa!
+  * Rombo che stampa! FATTO
 
 ## Array
 * **Facili**
@@ -35,10 +35,10 @@
   * Tanti numeri
 * **Medi**
   * La tombola magica
-  * Operazioni tra array
+  * Operazioni tra array FATTO
 * **Difficili**
-  * Azzecca e azzera
-  * Metti un po’ d’ordine
+  * Azzecca e azzera FATTO(?)
+  * Metti un po’ d’ordine FATTO
 
 ## Array multidimensionali
 * **Facili**
@@ -48,7 +48,7 @@
   * Il sottosopra
   * Sommali tutti
 * **Difficili**
-  * Righe o colonne?
+  * Righe o colonne? FATTO
 
 ## Funzioni
 * **Facili**
@@ -64,8 +64,8 @@
   * Il genio delle date
   * Pa-pa-pa lindomo
 * **Difficili**
-  * Fai il sensitivo
-  * I primi numeri… primi!
+  * Fai il sensitivo FATTO
+  * I primi numeri… primi! FATTO
 
 ## Oggetti
 * **Facili**

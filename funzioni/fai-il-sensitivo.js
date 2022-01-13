@@ -15,3 +15,21 @@
 
   
 */
+
+const N = Math.floor(Math.random() * (100 - 1) + 1)
+
+const A = 47
+const B = 53
+
+const isCloser = (a, b, n) => {
+  if (Math.abs(a - n) < Math.abs(b - n)) {
+    console.log(-1)
+  } else if (Math.abs(a - n) > Math.abs(b - n)) {
+    console.log(1)
+  } else {
+    console.log(0)
+  }
+}
+
+console.log("A = " + A, "B = " + B, "N = " + N)
+isCloser(A, B, N)

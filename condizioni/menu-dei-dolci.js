@@ -22,16 +22,16 @@
 */
 
 const menu = [
-  "1. Tiramisù",
-  "2. Torta della nonna",
-  "3. Cheesecake alla nutella",
-  "4. Macedonia",
+  "Tiramisù",
+  "Torta della nonna",
+  "Cheesecake alla nutella",
+  "Macedonia",
 ]
 
-const input = 2
+const input = 3
 
 if (menu[input - 1]) {
-  console.log("Hai scelto il dolce " + menu[input - 1].substring(3))
+  console.log("Hai scelto il dolce: " + menu[input - 1])
 } else {
   console.log("Dolce non disponibile")
 }
