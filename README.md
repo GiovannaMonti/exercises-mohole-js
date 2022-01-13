@@ -60,7 +60,7 @@
 * **Medi**
   * Conta il numero
   * La bellezza della casualità
-  * La funzione che sembra difficile
+  * La funzione che sembra difficile FATTO
   * Il genio delle date
   * Pa-pa-pa lindomo
 * **Difficili**

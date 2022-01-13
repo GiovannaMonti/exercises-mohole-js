@@ -10,3 +10,19 @@
     
   
 */
+
+const N = 2358387685
+const K = 30
+
+const trovaCifra = (n, k) => {
+  n = n.toString()
+  const digits = n.length
+
+  if (k <= digits) {
+    console.log(n[digits - k])
+  } else {
+    console.log("Il numero inserito è maggiore del numero di cifre esistenti")
+  }
+}
+
+trovaCifra(N, K)
